@@ -1,0 +1,55 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: #f4f4f9; /* Light gray background for better readability */
+    color: #333; /* Dark gray text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Green header for a fresh look */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a{
+    color: white; /* White text for better contrast on green background */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1 , h2, h3, h4
+  {
+    color: #4CAF50; /* Match header color for consistency */
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4c93af; 
+    color: white; /* White text for contrast on blue background */
+    text-align: center;
+    padding: 7px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
